@@ -44,6 +44,7 @@
   </a>
 </p>
 <!-- ABOUT THE PROJECT -->
+
 ## Sobre o Projeto
 
 Este site é parte de um projeto que surge do desafio do Hackathon CCR 2020, focado em propor melhorias para a qualidade de vida e saúde dos caminhoneiros. O projeto foi inteiramente desenvolvido pela equipe 26 entre os dias 12/06 - 14/06/2020.
