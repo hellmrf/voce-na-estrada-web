@@ -1,68 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+<br />
+<p align="center">
+  <a href="https://github.com/hellmrf/voce-na-estrada-web">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h3 align="center">Você na Estrada</h3>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <p align="center">
+    Website do projeto Você na Estrada.
+    <br />
+    <strong>
+    <a href="https://voce-na-estrada.netlify.app" target="_blank">Ver online »</a>
+    </strong>
+    <br />
+    <a href="https://github.com/FabioLafayete/Voce_na_Estrada">Ver app</a>
+    ·
+    <a href="https://github.com/hellmrf/voce-na-estrada-server">Ver back-end</a>
+  </p>
+</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<!-- TABLE OF CONTENTS -->
+## Índice
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Sobre o Projeto](#sobre-o-projeto)
+  * [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Uso](#Uso)
+* [Contato](#contato)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## Sobre o Projeto
 
-### `yarn eject`
+Este site é parte de um projeto que surge do desafio do Hackathon CCR 2020, focado em propor melhorias para a qualidade de vida e saúde dos caminhoneiros. O projeto foi inteiramente desenvolvido pela equipe 26 entre os dias 12/06 - 14/06/2020.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Tecnologias utilizadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este site foi desenvolvido em [React.JS](https://reactjs.org/) e se integra à [API REST](https://github.com/hellmrf/voce-na-estrada-server) (desenvolvida em Node.js) e ao [aplicativo mobile](https://github.com/FabioLafayete/Voce_na_Estrada) (desenvolvido em Flutter)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- GETTING STARTED -->
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para obter uma cópia local, siga os passos a seguir.
 
-## Learn More
+### Pré-requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Node.js (12.18.0)
+* npm (6.14.5)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As versões acima são as versões de teste. É muito provável que funcione bem para versões superiores.
 
-### Code Splitting
+### Instalação
+ 
+1. Clone o repositório
+```sh
+git clone https://github.com/hellmrf/voce-na-estrada-web.git
+```
+2. De dentro da pasta do projeto, instale os pacotes NPM:
+```sh
+npm i
+```
+3. Crie um arquivo `/src/config.json` conforme exemplo:
+```json
+{
+    "axios_base_url": "https://voce-na-estrada.herokuapp.com",
+    "Authorization": "" //token de autorização necessário pra todas as requisições à API.
+}
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+<!-- CONTACT -->
+## Contato
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Héliton Martins - helitonmrf@gmail.com - [@hellmrf](https://intagram.com/hellmrf)
 
-### Making a Progressive Web App
+Project Link: [https://github.com/hellmrf/voce-na-estrada-web](https://github.com/hellmrf/voce-na-estrada-web)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/hellmrf/voce-na-estrada-web.svg?style=flat-square
+[contributors-url]: https://github.com/hellmrf/voce-na-estrada-web/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hellmrf/voce-na-estrada-web.svg?style=flat-square
+[forks-url]: https://github.com/hellmrf/voce-na-estrada-web/network/members
+[stars-shield]: https://img.shields.io/github/stars/hellmrf/voce-na-estrada-web.svg?style=flat-square
+[stars-url]: https://github.com/hellmrf/voce-na-estrada-web/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hellmrf/voce-na-estrada-web.svg?style=flat-square
+[issues-url]: https://github.com/hellmrf/voce-na-estrada-web/issues
+[license-shield]: https://img.shields.io/github/license/hellmrf/voce-na-estrada-web.svg?style=flat-square
+[license-url]: https://github.com/hellmrf/voce-na-estrada-web/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/helitonmrf
+[product-screenshot]: screenshot.png
