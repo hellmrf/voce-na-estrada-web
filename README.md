@@ -71,7 +71,7 @@ git clone https://github.com/hellmrf/voce-na-estrada-web.git
 npm i
 ```
 3. Crie um arquivo `/src/config.json` conforme exemplo:
-```json
+```jsonc
 {
     "axios_base_url": "https://voce-na-estrada.herokuapp.com",
     "Authorization": "" //token de autorização necessário pra todas as requisições à API.
@@ -82,7 +82,7 @@ npm i
 <!-- CONTACT -->
 ## Contato
 
-Héliton Martins - helitonmrf@gmail.com - [@hellmrf](https://intagram.com/hellmrf)
+Héliton Martins - helitonmrf@gmail.com - [@hellmrf](https://instagram.com/hellmrf)
 
 Project Link: [https://github.com/hellmrf/voce-na-estrada-web](https://github.com/hellmrf/voce-na-estrada-web)
 
