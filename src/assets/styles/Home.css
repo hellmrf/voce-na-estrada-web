@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+section#container::before {
+  content: "";
+  background-image: url("/images/landing.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 15%;
+}
+
+section#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#container * {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#container header#logo {
+  width: 500px;
+  height: 200px;
+  color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#container header#logo img {
+  width: 100%;
+}
+
+section#container h1 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+section#container .cad_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  border: 2px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+section#container .cad_button:first-child {
+  margin-right: 36px;
+}
+
+section#container .cad_button:hover {
+  background-color: #A62B27;
+  color: #f9f9f9;
+}
+
+section#container .cad_button .link {
+  padding: 20px;
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=Home.css.map */

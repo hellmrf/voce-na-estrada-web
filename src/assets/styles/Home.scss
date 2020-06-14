@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+$white: #f9f9f9;
+$black: black;
+$mainColor: #A62B27;
+
+section#container::before {
+    content: "";
+    background-image: url('/images/landing.jpg');
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:15%;
+}
+section#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    * {position:relative; display: flex;}
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    header#logo {
+        width:500px;
+        height:200px;
+
+        color:$black;
+        align-items: center;
+        justify-content: center;
+        img{
+            width:100%;
+        }
+    }
+    h1 {
+        color:$black;
+        text-align: center;
+        font-size:30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .cad_button {
+        display:flex;
+        &:first-child {
+            margin-right: 36px;
+        }
+        // width:200px;
+        height:60px;
+        border:2px solid $black;
+        align-items: center;
+        justify-content: center;
+        color: $black;
+        cursor: pointer;
+        transition: all 300ms ease;
+        &:hover{
+            background-color: $mainColor;
+            color:$white;
+            // border-color: $mainColor;
+        }
+        .link {
+            padding: 20px;
+            color:inherit;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
