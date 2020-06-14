@@ -50,7 +50,6 @@ export default (props) => {
         const masked = mask.apply(value);
         setCNPJ(masked);
     };
-
     const handleName = (event) => {
         setName(event.target.value);
     };
@@ -68,6 +67,7 @@ export default (props) => {
     };
     const handleSubmit = async (event) => {
         event.preventDefault();
+        const parking = document.getElementById("parking").checked;
         setDisableSubmit(true);
         if (senha[0] !== senha[1]) {
             alert("As senhas não correspondem.");
@@ -84,6 +84,7 @@ export default (props) => {
                     longitude: parseFloat(position[1]),
                     email,
                     password: senha,
+                    parking,
                 },
                 {
                     headers: {
@@ -186,6 +187,12 @@ export default (props) => {
                             type="password"
                             placeholder="Repita a senha"
                         />
+                    </Form.Group>
+                    <Form.Group controlId="parking">
+                        <Form.Label>
+                            Seu estabelecimento possui ponto de parada?
+                            <input id="parking" type="checkbox" />
+                        </Form.Label>
                     </Form.Group>
                     <div id="map-container">
                         <p>

@@ -80,6 +80,9 @@ export default (props) => {
                                 Localização: ({data.latitude}, {data.longitude})
                             </li>
                             <li>Email: {data.email}</li>
+                            <li>
+                                Ponto de parada: {data.parking ? "sim" : "não"}
+                            </li>
                         </ul>
                     </Row>
                     <Row>
