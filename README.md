@@ -38,7 +38,11 @@
 * [Uso](#Uso)
 * [Contato](#contato)
 
-<p align="center">[![Screenshot][product-screenshot]](https://voce-na-estrada.netlify.app)</p>
+<p align="center">
+  <a href="https://voce-na-estrada.netlify.app">
+    <img src="presentation.gif" alt="demo">
+  </a>
+</p>
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
