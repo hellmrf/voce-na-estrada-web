@@ -103,4 +103,4 @@ Project Link: [https://github.com/hellmrf/voce-na-estrada-web](https://github.co
 [license-url]: https://github.com/hellmrf/voce-na-estrada-web/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/helitonmrf
-[product-screenshot]: screenshot.png
+[product-screenshot]: presentation.gif
